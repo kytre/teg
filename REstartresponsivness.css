@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1.125rem;
+    font-weight: 300;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+h1,h2,h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    color: #171816;
+}
+
+h1{
+    
+   
+    font-size: 2rem;
+    margin: 0;  /*line 12 nad line 18 we use margin o in both place  so that subtile become more close to main tiltle 
+    but if we give margin 0 only in subtitle it will not work  because both  h1 and subtitle and others class  have margin it must be change or deleted that why we use margin 0 in  both line */
+    }
+a{
+    color: cadetblue;
+}
+a:hover,
+a:focus{
+    color: coral;
+}
+strong{ /*different browser have different means of bold so alwyas give fontweight*/
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+    /*h1 subtitle*/
+    .subtitle{
+    font-weight: 700;
+    color: #460909;
+    font-size: .75rem;
+    margin: 0; /* reason expAINED IN LINE 12*/
+    }
+.article-title{
+
+font-size: 1.5rem;
+}
+.article-read-more,
+.article-info{
+
+    font-size: .875rem;
+}
+.article-read-more{
+color: rgb(140, 0, 255);
+text-decoration: none;
+font-weight: 700;
+}
+.article-read-more:hover,
+.article-read-more:focus{
+    color: rgb(6, 204, 32);
+    text-decoration: underline;
+    
+    }
+    
+
+
+
+
+
+
+
+
+
+.container{
+width: 90%;
+max-width: 900px;
+border: 0px solid rgb(17, 0, 255);
+margin: 0 auto;
+
+}
+.container-flex{ 
+    display: flex; /*this willmake thing in to row*/
+
+    justify-content: space-between;/*this will reate space b/w */
+}
+
+
+
+header{
+    
+    background: rgba(95, 229, 247, 0.76);
+    padding: 2em 0;
+    /*margin not wotrk*/
+    
+}
+ 
+
+@media (max-width:675px) {/*ALWYAS TRY TO GIVE MEDIA QUERTY AFTER CLASS NOT BEFORE OTHERWISE IT WILL NOT WORK*/
+    .container-flex{      
+         flex-direction: column;    }
+    
+    header{
+        text-align: center;
+    }
+    
+    
+    }
+
+
+
+main{
+    width: 75%;
+}
+aside{
+    width: 20%;
+}
+
+
+nav ul{
+border: 1px solid balck;
+list-style:none;
+display: flex;
+padding: 0;
+/*here above padding = 0 for rmove default padding*/
+justify-content: center;
+}
+nav li{
+
+margin-left: 2em;
+}
+nav a{
+
+text-decoration: none;
+color: rgb(16, 27, 19);
+font-weight: 700;
+
+}
+nav a:hover,
+nav a:focus{/*nav focus used for focus ie heightlight linklink*/
+    color: rgb(182, 23, 23);
+}
+@media (max-width:375px){
+nav ul{
+flex-direction: column;
+
+}
+nav li{
+
+    margin: .5em 0;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
