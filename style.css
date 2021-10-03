@@ -1,0 +1,482 @@
+  *{
+    max-width: 1500px;
+    min-width: 100px;
+   
+    box-sizing: border-box;
+  }
+  
+  
+  body{
+    width: 96%;
+    margin: 0 auto;
+padding: 0;
+
+background-color: black;
+
+}
+
+.subtitle{
+    text-align: center;
+}
+.subtitle h1{
+
+    color:rgb(32, 15, 15);
+    font-size: 2.5rem;
+    letter-spacing:.1rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    
+}
+.subtitle h2{
+    color: #3c14cf;
+    font-size: 2 rem;
+    letter-spacing: .1rem;
+    margin-top: .3em;
+    text-transform: uppercase;
+}
+
+
+
+
+
+.firstpart{
+  
+   height: 100vh;
+    background-image: url(img/resturant.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    /*  background: linear-gradient(#e6e6e6);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 4;
+    flex: 1 0 330;
+}
+
+.box1{
+padding:1em 1em;
+background-color:rgba(128, 128, 128, 0.514);
+text-align: center;
+margin-top: 12px;
+margin-bottom: 10px;
+color: rgb(255, 255, 255);
+font-size: 4rem;
+
+}
+.box1 p{
+margin-bottom: 0;
+color: white;
+margin-top: 0;
+}
+
+.veg{
+    
+    font-size: 2rem;
+margin-top: 0;
+color: tomato;
+
+}
+.type{
+display: flex;
+flex-direction: row;
+
+}
+.uppericon{
+    margin-top: -1em;
+}
+
+.stylebutton{
+
+    display: flex;
+   margin-top: -2em
+
+}
+button{
+padding:.5em 4em;
+margin-bottom: 1em;
+background-color: tomato;
+outline: 1em solid black;
+}
+button a{
+    color:black;
+}
+button b{
+    font-size: x-large;
+}
+.dishname{/*to inline button and drinks*/
+    display: flex;
+}
+button a{
+    text-decoration: none;
+    
+}
+button:hover{
+background-color: white;
+transition: ease-in;
+transition: all 1s ease-in-out;
+transform: translateY(-10px);
+box-shadow: 0px 18px 8px -10px rgb(0,0,0,.95);
+}
+button a:hover{
+    color: black;
+}
+.box2{
+    padding:1em 1em;
+    background-color: rgba(128, 128, 128, 0.514);
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 12px;
+    color: white;
+    font-size: 4rem;
+    }
+.box2 p{
+margin-bottom: 0;
+margin-top: 0;
+}
+ .drinks{
+     font-size: 2rem;
+     margin-top: 0;
+ }  
+ 
+ /*font and sectipn main*/
+
+/*foodbox*/ 
+ .foodicon{
+     margin-top: 1rem;
+ margin-bottom: 1rem ;
+ padding:3rem 2rem ;
+ background-color: tomato;
+ font-size: 2rem;
+ text-align:center;
+ 
+ }
+ /*food box typeography*/
+.foodtype{
+margin-bottom: .4em;
+letter-spacing: .2rem;
+
+}
+
+.fooditempara{
+    font-size: .4em;
+    margin-top: 0;
+    color: rgb(255, 255, 255);
+    letter-spacing: .1em;
+    text-transform: capitalize;
+}
+
+/*food icon style */
+.food1 .fas{
+    color: rgba(172, 255, 47, 0.747);
+}
+.food2 .fas{
+    color: rgb(116, 255, 232);
+}
+.food3 .fas{
+color:rgb(20, 5, 10) ;
+}
+.food4 .fas{
+    color: rgb(122, 0, 0);
+}
+.food5 .fas{
+color: grey;
+}
+
+ /*upper83 line code detailed version below here
+
+ .food1{
+padding:3em 2em ;
+background-color: tomato;
+
+
+
+ }
+
+ .food2{
+    padding:3em 2em ;
+    background-color: tomato;
+    
+    
+    
+     }
+
+     .food3{
+        padding:3em 2em ;
+        background-color: tomato;
+        
+        
+        
+         }
+         .food4{
+            padding:3em 2em ;
+            background-color: tomato;
+            
+            
+            
+             }
+             .food5{
+                padding:3em 2em ;
+                background-color: tomato;
+                
+                
+                
+                 }
+
+*/
+/**Image photo*/
+.image-{
+ 
+    
+}
+/*for positon img at centre*/
+.imgfood{
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+
+.foodbanner{
+background-color:rgb(2, 2, 2) ;
+
+
+}
+/*img grow as screen size and look nice*/
+img {
+    margin-top: .4em;
+    width:100%;
+    height: auto;
+    border:5px solid grey;
+
+  }
+  .imgsubtitle{
+      text-align: center;
+  }
+.imgsubtitle h2{
+font-size: 2em;
+letter-spacing: 4px;
+text-transform: uppercase;
+margin-bottom: .5em;
+color: grey;
+
+}
+.imgsubtitle p{
+    font-size: 2em;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+font-style: italic ,bold;
+color: rgb(161, 78, 0);
+margin-bottom: .5em;
+font-family: Verdana,Geneva,sans-serif; 
+}
+.imgparatext{
+
+    margin-top: 0;
+}
+
+
+@media(max-width:571px){
+  *{
+      margin: 0;
+      padding: 0;
+  }
+
+
+.stylebutton{
+    margin-top: 0;
+}
+.firstpart{
+
+    height: 70vh;
+}
+
+
+
+
+
+}
+
+
+
+
+@media(min-width:571px){
+.boxs{
+    display: flex;
+    background-color: rgb(12, 9, 9);
+   justify-content: space-around;
+}
+
+.flex{
+display: flex;
+
+
+
+}
+
+
+
+/*this will inline box no 3 i.e foodicon food3*/
+.flex3{
+    display: flex;
+    border: 10px solid white;
+   
+}
+
+.flex2 ,.flex1{
+    border: 10px solid white;
+  
+}
+
+
+
+
+
+}
+
+@media(min-width:604px){
+
+
+
+
+
+
+
+
+
+
+.firstpart{
+
+width:70%;
+
+ background-image: url(img/resturant.jpg);
+ max-height: 538px;
+ 
+}
+
+
+
+
+    .container{
+display: flex;
+
+}
+.box{
+    width: auto;
+max-height: 7rem;
+
+}
+.box1{
+    padding:2em;
+margin-bottom: .2em;
+
+
+}
+.box2{
+    padding: 2em;
+}
+
+.boxs{
+display: flex;
+flex-direction: column;
+
+margin-left: 1em;
+
+
+}
+
+.flex{
+    display: flex;
+    margin-top: 1em;
+    justify-content: space-around;
+    
+    }
+
+
+
+    .flex3{
+        
+        border: 0px solid white;
+       
+    }
+    
+    .flex2 ,.flex1{
+        border: 0px solid white;
+      
+    }
+
+    /*fooodbanner section --lastones*/
+.foodbanner{
+width: ;
+height: 90%;
+background-color: black;
+}
+
+img{
+    border: 0px;
+}
+.image-sec{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.imgsubtitle{
+
+
+margin-right: 1em;
+}
+.imgtext{
+
+    width: 60%;
+}
+
+.food1,.food2,.food3{
+    outline: 1em solid white;
+}
+
+
+
+
+
+
+
+}
+
+
+/*box shadow*/
+.food5,.food4,.flex3,.flex2,.flex1,.box1{
+
+
+    transition: all ease-in-out 250ms;
+}
+
+.food5:hover,.food4:hover,.flex3:hover,.flex2:hover,.flex1:hover,.box1:hover{
+transform: translateY(-10px);
+box-shadow: 0px 18px 8px -10px rgba(0,0,0,.95);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
